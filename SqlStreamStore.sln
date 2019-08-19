@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlStreamStore.MySql", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlStreamStore.MySql.Tests", "tests\SqlStreamStore.MySql.Tests\SqlStreamStore.MySql.Tests.csproj", "{69B2EE47-1F3C-4843-A471-C02F961CFEAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlStreamStore.SQLite", "src\SqlStreamStore.SQLite\SqlStreamStore.SQLite.csproj", "{392F1469-8A04-49A9-B9AC-5D2B0D206F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlStreamStore.SQLite.Tests", "tests\SqlStreamStore.SQLite.Tests\SqlStreamStore.SQLite.Tests.csproj", "{91127A1A-F708-4F48-82DB-5B313CA66B69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{69B2EE47-1F3C-4843-A471-C02F961CFEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69B2EE47-1F3C-4843-A471-C02F961CFEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69B2EE47-1F3C-4843-A471-C02F961CFEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392F1469-8A04-49A9-B9AC-5D2B0D206F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392F1469-8A04-49A9-B9AC-5D2B0D206F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392F1469-8A04-49A9-B9AC-5D2B0D206F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392F1469-8A04-49A9-B9AC-5D2B0D206F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91127A1A-F708-4F48-82DB-5B313CA66B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91127A1A-F708-4F48-82DB-5B313CA66B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91127A1A-F708-4F48-82DB-5B313CA66B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91127A1A-F708-4F48-82DB-5B313CA66B69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
