@@ -10,7 +10,7 @@ namespace SqlStreamStore
 
         protected override Task<IStreamStoreFixture> CreateFixture()
         {
-            throw new System.NotImplementedException();
+            return Task.FromResult<IStreamStoreFixture>(new SQLiteStreamStoreFixture());
         }
     }
 }
